@@ -141,6 +141,7 @@ def calculate_day_hours(times):
     first_in = parsed[0]
     last_out = parsed[-1]
     total_seconds = (last_out - first_in).total_seconds()
+    
 
     if len(parsed) >= 4 and len(parsed) % 2 == 0:
         working_seconds = 0
