@@ -12,7 +12,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# Custom CSS
+# Custom CSS for a attendance calculator 
 st.markdown("""
 <style>
     #MainMenu {visibility: hidden;}
