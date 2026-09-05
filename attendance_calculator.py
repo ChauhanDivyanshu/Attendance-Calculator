@@ -402,7 +402,7 @@ if uploaded_file:
                             display_df['Employee Name'].str.contains(search, case=False, na=False)
                         ]
 
-                    # Drop internal columns for display
+                    # Drop internal columns for display and incoming update to pay out this 
                     display_cols = ['Emp No', 'Employee Name', 'Present Days', 'Total Working Time',
                                     'Avg Time/Day', 'Expected Time', 'Difference', 'Status']
 
