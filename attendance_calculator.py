@@ -451,7 +451,7 @@ if uploaded_file:
                             use_container_width=True
                         )
 
-                # TAB 2: DAY-WISE
+                # TAB 2: DAY-WISE details every employee
                 with tab2:
                     st.markdown('<div class="section-title">Day-wise Attendance Details</div>', unsafe_allow_html=True)
 
